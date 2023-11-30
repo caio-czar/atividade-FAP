@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Extra 01 #94361</title>
+</head>
+<body>
+    <script>
+        let NomeUsuario = (prompt("Diga o seu nome : "))
+        let SalarioUsuario = (prompt("Diga o valor do seu salário: "))
+        let IdadeUsuario = parseInt(prompt("Diga a sua idade: "))
+        let TemDiploma = (prompt("Você tem Diploma ? Responda com SIM ou NAO."))
+        let NomeDiploma;
+        if (TemDiploma == "SIM") {
+            NomeDiploma = (prompt("Qual seu curso ? : "))
+
+        } else if (TemDiploma == "NAO") {
+            NomeDiploma = "Não Graduado."
+        } else alert("Por Favor escreva uma mensagem válida.");
+        alert(
+            "Cadastro de : " + NomeUsuario +
+            "\n Nome completo: " + NomeUsuario +
+            "\n Salário: " + SalarioUsuario +
+            "\n Idade: " + IdadeUsuario +
+            "\n Graduação: " + NomeDiploma
+        );
+    </script>
+    
+</body>
+</html>
